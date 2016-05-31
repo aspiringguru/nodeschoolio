@@ -1,0 +1,7 @@
+before foo : a=4
+start of foo : a=4 b=undefined
+foo : after b=a*3 : a=4 b=12
+in foo after bar: a=4 b=12
+@ start of bar : a=4 b=undefined, c=48
+bar after b=2 : a=4 b=2, c=48
+end of foo : a=4 b=12
